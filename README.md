@@ -23,7 +23,7 @@ Developed by: RAMESH RENUKA
 Registered number: 212223240136
 '''
 num_words=0
-with open('Word.txt','r') as f1:
+with open('5a.txt','r') as f1:
     for i in f1:
         word=i.split()
         num_words += len(word)
